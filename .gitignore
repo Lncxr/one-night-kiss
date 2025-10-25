@@ -3,5 +3,8 @@
 
 # . ..but not these
 !readme.md
+
 !src/
-!incl
+!incl/
+!src/**
+!incl/**
