@@ -1,8 +1,8 @@
 CXX = g++
-CXXFLAGS = -std=c++11
+CXXFLAGS = -std=c++17
 INCLUDES = -I../incl
 
-SRC = src/visualiser.cpp
+SRC = src/visualiser.cpp src/visualise_strimage.cpp
 OBJ = $(SRC:.cpp=.o)
 EXEC = visualiser
 
